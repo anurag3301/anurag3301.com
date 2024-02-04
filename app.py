@@ -9,7 +9,7 @@ CORS(app)
 @app.route('/api/data')
 @cross_origin()
 def get_data():
-    data = {'message': 'Hello from Flask!'}
+    data = {'message': 'Meri itni yaad, 😗'}
     return jsonify(data)
 
 @app.route('/')
