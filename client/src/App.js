@@ -3,6 +3,7 @@ import React, {useState, useEffect} from 'react'
 import './App.css';
 
 var apiUrl = process.env.REACT_APP_API_URL;
+if(apiUrl == undefined)apiUrl = ""
 
 function App() {
   const [data, setData] = useState({});
@@ -13,7 +14,6 @@ function App() {
 
   const fetchData = async () => {
     try {
-      console.log(apiUrl)
       const response = await fetch(apiUrl + '/api/data');
       const result = await response.json();
       setData(result);
