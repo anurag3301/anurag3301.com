@@ -9,7 +9,7 @@ CORS(app)
 @app.route('/api/data')
 @cross_origin()
 def get_data():
-    data = {'message': 'Meri itni yaad, 😗'}
+    data = {'message': 'Testing Github Action CICD'}
     return jsonify(data)
 
 @app.route('/')

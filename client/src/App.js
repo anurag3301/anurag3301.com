@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>React App with Flask Backend! Dope stuff</h1>
+      <h1>React App with Flask Backend!</h1>
       <p>Data from Flask: {data.message}</p>
     </div>
   );
