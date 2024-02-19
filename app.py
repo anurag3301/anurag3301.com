@@ -12,6 +12,19 @@ def get_data():
     data = {'message': 'Testing Github Action CICD'}
     return jsonify(data)
 
+
+@app.route('/api/attendance')
+@cross_origin()
+def attendance_data():
+    data = {'dscc': 61.90,
+            'ml': 63.16,
+            'mad': 71.43,
+            'arvr': 54.55,
+            'vap': 70,
+            'pw': 92.31,
+            }
+    return jsonify(data)
+
 @app.route('/')
 @cross_origin()
 def serve():
