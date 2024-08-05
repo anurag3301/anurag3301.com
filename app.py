@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, send_from_directory, abort
+from flask import Flask, jsonify, send_from_directory, abort, redirect, url_for
 from flask.helpers import send_from_directory
 from flask_cors import CORS, cross_origin
 import os
@@ -9,11 +9,11 @@ CORS(app)
 @app.route('/')
 @cross_origin()
 def index():
-    return "hello"
+    return redirect(url_for('blog'))
 
 @app.route('/blog/', defaults={'path': 'index.html'})
 @app.route('/blog/<path:path>')
-def serve_blog_static(path):
+def blog(path):
     file_path = os.path.join('blog/public', path)
     if os.path.isfile(file_path):
         return send_from_directory('blog/public', path)
