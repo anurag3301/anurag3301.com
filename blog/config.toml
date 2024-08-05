@@ -57,6 +57,7 @@ menu_items = [
     # tags should only be enabled if you have "tags" taxonomy
     # see documentation below for more details
     {name = "tags", url = "$BASE_URL/tags"},
+    {name = "archive", url = "$BASE_URL/archive"},
     {name = "GitHub", url = "https://github.com/anurag3301", newtab = true},
     {name = "LinkedIn", url = "https://www.linkedin.com/in/anurag3301/", newtab = true},
     {name = "Class Gap", url = "https://www.classgap.com/me/anurag-kumar-singh", newtab = true},
