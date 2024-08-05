@@ -3,7 +3,7 @@ import os
 def update_config():
     # Define the local and production base URLs
     local_base_url = "http://127.0.0.1:5000/blog"
-    production_base_url = "http://185.185.126.46/blog"
+    production_base_url = "http://anurag3301.com/blog"
     
     # Determine the base URL based on the environment
     base_url = local_base_url if os.getenv('FLASK_ENV') == 'development' else production_base_url
