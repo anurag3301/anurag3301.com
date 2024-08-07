@@ -246,3 +246,15 @@ hr {
 .hidden {
   display: none;
 }
+
+.youtube {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:315px;
+
+    iframe {
+        // width: 100%;
+        height: 100%;
+    }
+}
