@@ -6,6 +6,7 @@ date = 2024-08-04
 tags = ["nvim", "platformio"]
 +++
 
+
 If you work with microcontrollers you must have heard of `PlatformIO`. It is a tool which we can use to program and debug multiple families of microcontrollers in various frameworks with little to no manual setup work. PlatformIO takes care of installing the tool, setting up the project, build, upload and debug. PlatformIO comes with an extension for VS Code which wraps the underlaying `PlatformIO cli` tool and exposes a very nice interface to setup project and use other tools. But if you are a n/vim user like me, you only have the cli. I was fine with cli but I wanted that ease of use like VS Code extension so I made this neovim plugin called [nvim-platformio.lua](https://github.com/anurag3301/nvim-platformio.lua)
 
 # Installation process
@@ -45,7 +46,7 @@ cd esp_project
 ```
 2. Open neovim and run `:Pioinit`, this will open a telescope picker where you can fuzzy find and select the board you want to use. Then press enter.
 
-{{ image(src="/img/pioinit.gif", position="left") }}
+{{ image(src="https://raw.githubusercontent.com/anurag3301/anurag3301.com/master/blog/static/img/pioinit.gif", position="left") }}
 
 3. After selecting the board, you'll have option to select the desired framework such as `Arduino`, `ESP-IDF`, `STM32 Cube` etc. And press enter.
 4. Now a toggleterm window will pop up which will run the `pio` project setup command and install any missing tools or dependencies.
