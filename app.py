@@ -22,5 +22,16 @@ def blog(path):
     else:
         return abort(404)
 
+
+@app.route('/game')
+@cross_origin()
+def game_index():
+    return send_from_directory('game', 'spacebuddy.html')
+
+@app.route('/game/<path:path>')
+@cross_origin()
+def serve_game_static(path):
+    return send_from_directory('game', path)
+
 if __name__ == "__main__":
     app.run(debug=True)
