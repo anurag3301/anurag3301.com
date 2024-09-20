@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, send_from_directory, abort, redirect, url_for
+from flask import Flask, jsonify, send_from_directory, abort, redirect, url_for, send_file
 from flask.helpers import send_from_directory
 from flask_cors import CORS, cross_origin
 import os
@@ -10,6 +10,18 @@ CORS(app)
 @cross_origin()
 def index():
     return redirect(url_for('blog'))
+
+
+@app.route('/resume')
+def get_resume():
+    # Path to the PDF file
+    pdf_path = os.path.join(app.root_path, 'static', 'Resume.pdf')
+
+    try:
+        return send_file(pdf_path, mimetype='application/pdf')
+    except FileNotFoundError:
+        abort(404, description="Resume not found")
+
 
 @app.route('/blog/', defaults={'path': 'index.html'})
 @app.route('/blog/<path:path>')
