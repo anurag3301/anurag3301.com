@@ -3,13 +3,20 @@ from flask.helpers import send_from_directory
 from flask_cors import CORS, cross_origin
 import os
 
-app = Flask(__name__,  static_url_path='')
+app = Flask(__name__)
 CORS(app)
 
-@app.route('/')
-@cross_origin()
-def index():
-    return redirect(url_for('blog'))
+
+@app.route('/', defaults={'path': 'index.html'})
+@app.route('/<path:path>')
+def index(path):
+    file_path = os.path.join('home/public', path)
+    if os.path.isfile(file_path):
+        return send_from_directory('home/public', path)
+    elif os.path.isdir(file_path):
+        return send_from_directory(file_path, 'index.html')
+    else:
+        return abort(404)
 
 
 @app.route('/resume')
