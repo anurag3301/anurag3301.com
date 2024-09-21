@@ -1,4 +1,4 @@
-base_url = "{BASE_URL}"
+base_url = "http://127.0.0.1:5000/blog"
 title = "anurag3301/blog"
 
 # Sass compilation is required

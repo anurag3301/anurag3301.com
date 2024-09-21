@@ -1,0 +1,28 @@
+title = "anurag3301"
+base_url = "http://anurag3301.com"
+
+compile_sass = true
+minify_html = false
+generate_feeds = true
+build_search_index = true
+author = "Anurag Kumar Singh"
+
+default_language = "en"
+
+taxonomies = [{ name = "tags", feed = true }]
+
+[markdown]
+highlight_code = true
+highlight_theme = "css"
+smart_punctuation = true
+bottom_footnotes = true
+
+
+
+[extra]
+default_theme = "dark"
+accent_color_dark = "#66ff66"
+fix_contrast_dark = true
+styles = [
+]
+
