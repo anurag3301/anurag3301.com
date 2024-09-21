@@ -1,24 +1,16 @@
 table {
-	box-shadow: var(--edge-highlight);
-	border-radius: var(--rounded-corner);
-	border-collapse: collapse;
-	background-color: var(--fg-muted-1);
-	width: 100%;
-	overflow: hidden;
+  width: 100%;
+  border-collapse: collapse;
+  border: 0px;
 
-	tr {
-		&:nth-child(even) {
-			background-color: var(--fg-muted-1);
-		}
-
-		th,
-		td {
-			padding: 0.5rem 1rem;
-		}
-
-		th {
-			background-color: var(--fg-muted-2);
-			font-weight: bold;
-		}
-	}
+  th, td {
+    border: 0px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+  }
+  a {
+    color:#dbdbdb;
+    text-decoration: none;
+  }
 }
