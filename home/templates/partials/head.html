@@ -10,6 +10,7 @@
 	<title>{% include "partials/title.html" %}</title>
 	<link rel="canonical" href="{{ current_url | default(value='/') | safe }}" />
 
+    <link type="text/css" rel="stylesheet" href="https://www.nerdfonts.com/assets/css/webfont.css" />
 	{%- if config.markdown.highlight_code and config.markdown.highlight_theme == "css" %}
 		{%- if config.markdown.highlight_themes_css | length > 0 %}
 			<link type="text/css" rel="stylesheet" href="{{ get_url(path='syntax-theme-light.css') }}" media="(prefers-color-scheme: light)" />
