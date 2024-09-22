@@ -15,13 +15,22 @@ title = ""
 {% end %}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-<table border="1">
+<table>
     <tr>
         <th><a target=_blank href="https://github.com/anurag3301">
-            <i style="color:white;" class="bi bi-github"></i> Github</a></th>
-        <th><a target=_blank href="https://www.linkedin.com/in/anurag3301/"><i style="color:#0a66c2;" class="bi bi-linkedin"></i> LinkedIn</a></th>
-        <th><a target=_blank href="https://www.youtube.com/@anurag3301YT"><i style="color:#ff4545;" class="bi bi-youtube"></i> Youtube</a></th>
-        <th><a target=_blank href="/resume"><i style="color:#ffffff;" class="bi bi-file-earmark-person-fill"></i> Resume</a></th>
-        <th><a target=_blank href="/blog"><i style="color:#ffffff;" class="bi bi-newspaper"></i> Blog</a></th>
+            {{bsicon(color="white", class="bi bi-github")}} Github</a>
+        </th>
+        <th><a target=_blank href="https://www.linkedin.com/in/anurag3301/">
+            {{bsicon(color="#0a66c2", class="bi bi-linkedin")}} LinkedIn</a>
+        </th>
+        <th><a target=_blank href="https://www.youtube.com/@anurag3301YT">
+            {{bsicon(color="#ff4545", class="bi bi-youtube")}} Youtube</a>
+        </th>
+        <th><a target=_blank href="/resume">
+            {{bsicon(color="white", class="bi bi-file-earmark-person-fill")}} Resume</a>
+        </th>
+        <th><a target=_blank href="/blog">
+            {{bsicon(color="white", class="bi bi-newspaper")}} Blog</a>
+        </th>
     </tr>
 </table>

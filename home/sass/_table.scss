@@ -9,6 +9,11 @@ table {
     text-align: center;
     text-decoration: none;
   }
+
+  th:hover{
+    text-decoration:underline;
+  }
+
   a {
     color:#dbdbdb;
     text-decoration: none;
