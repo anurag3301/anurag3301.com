@@ -13,24 +13,23 @@ title = ""
                                    /____/                      
 ```
 {% end %}
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 <table>
     <tr>
         <th><a target=_blank href="https://github.com/anurag3301">
-            {{bsicon(color="white", class="bi bi-github")}} Github</a>
+            {{nerdicon(color="white", class="nf nf-fa-github")}} Github</a>
         </th>
         <th><a target=_blank href="https://www.linkedin.com/in/anurag3301/">
-            {{bsicon(color="#0a66c2", class="bi bi-linkedin")}} LinkedIn</a>
+            {{nerdicon(color="#0a66c2", class="nf nf-fa-linkedin_square")}} LinkedIn</a>
         </th>
         <th><a target=_blank href="https://www.youtube.com/@anurag3301YT">
-            {{bsicon(color="#ff4545", class="bi bi-youtube")}} Youtube</a>
+            {{nerdicon(color="#ff4545", class="nf nf-fa-youtube")}} Youtube</a>
         </th>
         <th><a target=_blank href="/resume">
-            {{bsicon(color="white", class="bi bi-file-earmark-person-fill")}} Resume</a>
+            {{nerdicon(color="white", class="nf nf-fa-file_lines")}} Resume</a>
         </th>
         <th><a target=_blank href="/blog">
-            {{bsicon(color="white", class="bi bi-newspaper")}} Blog</a>
+            {{nerdicon(color="white", class="nf nf-fa-newspaper_o")}} Blog</a>
         </th>
     </tr>
 </table>

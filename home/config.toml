@@ -24,5 +24,6 @@ default_theme = "dark"
 accent_color_dark = "#66ff66"
 fix_contrast_dark = true
 styles = [
+    "webfont.css"
 ]
 bundled_fonts = true
