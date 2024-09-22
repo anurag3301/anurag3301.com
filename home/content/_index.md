@@ -34,3 +34,32 @@ title = ""
         </th>
     </tr>
 </table>
+
+<br>
+
+I’m an embedded systems engineer with two years of experience in programming and electronics. Proficient in Python, C++, Bash, and Lua, I’ve worked with AVR microcontrollers and am currently exploring ARM Cortex-M with STM32 and FreeRTOS using ESP-IDF. A Linux enthusiast, I configure and use Arch Linux for my projects. I also write blog, make sure to check them out {{anchor(url="/blog", title="here")}}.
+
+# Projects
+
+## STM32 pio libs
+> Check the project {{anchor(url="https://github.com/STM32-pio-libs", title="Link")}}
+
+I’ve launched a GitHub organization focused on developing and publishing drivers for sensors and modules with STM32Cube HAL. This effort bridges the gap for components with Arduino libraries but lacking STM32 HAL support. These libraries are easily installable through {{anchor(url="https://registry.platformio.org/search?q=owner%3Aanurag3301", title="PlatformIO registery", code=true)}}.
+
+#### Drivers Written So Far
+
+1. Real Time clock: {{anchor(url="https://github.com/STM32-pio-libs/DS1302-RTC", title="DS1302 RTC")}}
+2. I2C for 1602 LCD: {{anchor(url="https://github.com/STM32-pio-libs/I2C-LCD", title="PCF8574")}}
+3. GPS: {{anchor(url="https://github.com/STM32-pio-libs/NEO-6M", title="NEO-6M")}}
+4. Ultrasonic distance: {{anchor(url="https://github.com/STM32-pio-libs/HC-SR04", title="HC-SR04")}}
+
+<br>
+
+## nvim-platformio.lua
+
+> Check the project {{anchor(url="https://github.com/anurag3301/nvim-platformio.lua", title="Link")}}
+
+A Neovim extension for PlatformIO that provides a streamlined project management experience, akin to the official VSCode extension. This plugin integrates with Telescope to make searching for libraries and development board MCUs straightforward, enhancing Neovim’s capabilities for embedded system development. With over 60 stars on GitHub and contributions from three collaborators, it’s gained notable traction.
+
+#### Project Explaination
+{{youtube(id="Jcqat7NhXrc")}}

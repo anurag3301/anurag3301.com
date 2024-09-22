@@ -25,4 +25,4 @@ accent_color_dark = "#66ff66"
 fix_contrast_dark = true
 styles = [
 ]
-
+bundled_fonts = true
