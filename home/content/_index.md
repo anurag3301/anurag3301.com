@@ -38,6 +38,38 @@ title = ""
 
 I’m an embedded systems engineer with two years of experience in programming and electronics. Proficient in Python, C++, Bash, and Lua, I’ve worked with AVR microcontrollers and am currently exploring ARM Cortex-M with STM32 and FreeRTOS using ESP-IDF. A Linux enthusiast, I configure and use Arch Linux for my projects. I also write blog, make sure to check them out {{anchor(url="/blog", title="here")}}.
 
+# Skills
+
+<table style="font-size:1.5em; margin-top:1.5em;">
+    <tr>
+        <td>{{nerdicon(color="#e84d31", class="nf-md-git")}} Git</td>
+        <td>{{nerdicon(color="#6295cb", class="nf-custom-c")}} C</td>
+        <td>{{nerdicon(color="#08ff08", class="nf-cod-file_binary")}} Bare Metal</td>
+        <td>{{nerdicon(color="#085e9f", class="nf-custom-cpp")}} C++</td>
+    </tr>
+    <tr>
+        <td>{{nerdicon(color="#f7d551", class="nf-fa-python")}} Python</td>
+        <td>{{nerdicon(color="white", class="nf-fa-linux")}} Linux</td>
+        <td>{{nerdicon(color="#c6c5bf", class="nf-oct-terminal")}} Shell Script</td>
+        <td>{{nerdicon(color="blue", class="nf-seti-lua")}} Lua<td>
+    </tr>
+    <tr>
+        <td>{{nerdicon(color="white", class="nf-dev-gnu")}} GDB</td>
+        <td>{{nerdicon(color="#019130", class="nf-custom-vim")}} Vim</td>
+        <td><img class="image-line" src="/freecad.svg"> FreeCAD</td>
+        <td>{{nerdicon(color="#08ff08", class="nf-cod-circuit_board")}} PCB<td>
+    </tr>
+    <tr>
+        <td><img class="image-line" src="/stm32.png"> STM32</td>
+        <td><img style="height:0.7em" class="image-line" src="/arm.svg"></td>
+        <td>AVR Atmega</td>
+        <td><img style="height:1.2em"class="image-line" src="/freertos.svg"></td>
+    </tr>
+</table>
+
+<br>
+<br>
+
 # Projects
 
 ## STM32 pio libs
