@@ -17,19 +17,19 @@ title = ""
 <table>
     <tr>
         <th><a target=_blank href="https://github.com/anurag3301">
-            {{nerdicon(color="white", class="nf nf-fa-github")}} Github</a>
+            {{nerdicon(color="white", class="nf-fa-github")}} Github</a>
         </th>
         <th><a target=_blank href="https://www.linkedin.com/in/anurag3301/">
-            {{nerdicon(color="#0a66c2", class="nf nf-fa-linkedin_square")}} LinkedIn</a>
+            {{nerdicon(color="#0a66c2", class="nf-fa-linkedin_square")}} LinkedIn</a>
         </th>
         <th><a target=_blank href="https://www.youtube.com/@anurag3301YT">
-            {{nerdicon(color="#ff4545", class="nf nf-fa-youtube")}} Youtube</a>
+            {{nerdicon(color="#ff4545", class="nf-fa-youtube")}} Youtube</a>
         </th>
         <th><a target=_blank href="/resume">
-            {{nerdicon(color="white", class="nf nf-fa-file_lines")}} Resume</a>
+            {{nerdicon(color="white", class="nf-fa-file_lines")}} Resume</a>
         </th>
         <th><a target=_blank href="/blog">
-            {{nerdicon(color="white", class="nf nf-fa-newspaper_o")}} Blog</a>
+            {{nerdicon(color="white", class="nf-fa-newspaper_o")}} Blog</a>
         </th>
     </tr>
 </table>
