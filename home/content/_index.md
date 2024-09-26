@@ -36,7 +36,7 @@ title = ""
 
 <br>
 
-I’m an embedded systems engineer with two years of experience in programming and electronics. Proficient in Python, C++, Bash, and Lua, I’ve worked with AVR microcontrollers and am currently exploring ARM Cortex-M with STM32 and FreeRTOS using ESP-IDF. A Linux enthusiast, I configure and use Arch Linux for my projects. I also write blog, make sure to check them out {{anchor(url="/blog", title="here")}}.
+I’m an embedded software engineer with two years of experience in programming and electronics. Proficient in Python, C++, Bash, and Lua, I’ve worked with AVR microcontrollers and am currently exploring ARM Cortex-M with STM32 and FreeRTOS using ESP-IDF. A Linux enthusiast, I configure and use Arch Linux for my projects. I also write blog, make sure to check them out {{anchor(url="/blog", title="here")}}.
 
 # Skills
 
