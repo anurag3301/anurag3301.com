@@ -54,6 +54,12 @@ I’m an embedded systems engineer with two years of experience in programming a
         <td>{{nerdicon(color="blue", class="nf-seti-lua")}} Lua<td>
     </tr>
     <tr>
+        <td>{{nerdicon(color="#003856", class="nf-dev-sqllite")}} SQL</td>
+        <td><img class="image-line" src="/flask.jpg"> Flask</td>
+        <td>{{nerdicon(color="#e8d44d", class="nf-fa-js")}} JavaScript</td>
+        <td>{{nerdicon(color="#7c4628", class="nf-seti-rust")}} Rust<td>
+    </tr>
+    <tr>
         <td>{{nerdicon(color="white", class="nf-dev-gnu")}} GDB</td>
         <td>{{nerdicon(color="#019130", class="nf-custom-vim")}} Vim</td>
         <td><img class="image-line" src="/freecad.svg"> FreeCAD</td>
